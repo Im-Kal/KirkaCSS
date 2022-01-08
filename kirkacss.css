@@ -1,0 +1,194 @@
+/*
+Kirka.io Simple CSS
+Made By: NizzQ
+*/
+
+/*Background */
+.pattern-bg {
+  background: url(https://media.discordapp.net/attachments/529192409305710602/902459294367219712/papers.png?width=1051&height=65) !important;
+  width: 100%;
+}
+
+/*
+Another BG: https://media.discordapp.net/attachments/529192409305710602/902443840387026944/oriental-tiles.png
+			https://media.discordapp.net/attachments/529192409305710602/902459294367219712/papers.png?width=1051&height=657
+*/
+
+.bg-radial {
+  display: none;
+}
+
+/* Stream */
+.live-streams {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.live-streams:hover {
+  opacity: 1;
+}
+
+/* Lobby */
+.promo-link-btn {
+  display: none !important;
+}
+
+.logo {
+  content: url(https://cdn.discordapp.com/attachments/791423607560994826/822576622875967528/texttrans.png);
+}
+
+.soc-group[data-v-3c44abf2] {
+  display: none;
+}
+
+.systems {
+  margin-left: 5% !important;
+}
+
+.moneys {
+  position: fixed;
+  right: unset;
+  left: 83% !important;
+}
+
+.right-icons {
+  background-color: transparent !important;
+  transform: translateX(90%);
+  flex-direction: column;
+}
+
+.right-icons .inventory-card {
+  -webkit-transform: translateX(-38px);
+  transform: translateX(-38px);
+  transition: ease-in-out 0.4s;
+}
+
+.inventory-card:hover {
+  transform: translateX(-140px);
+}
+
+.right-icons .icon-btn {
+  display: block;
+  position: absolute;
+  right: 22%;
+  top: 132%;
+  width: 100%;
+  opacity: 1;
+  transition: ease-in-out 0.4s;
+}
+
+.right-icons .icon-btn:hover {
+  transform: translateX(-100px);
+}
+
+.right-icons .svg-icon[data-v-b8de1e14] {
+  margin-left: -98%;
+  margin-bottom: -30%;
+}
+
+.right-icons .text-icon {
+  margin-right: -30%;
+  margin-top: 9%;
+}
+
+.play:before {
+  content: "css by NizzQ";
+  margin-right: 1385px;
+}
+
+/* Loading */
+.loading-scene .loading {
+  display: none;
+}
+
+.background-cont .bg-image {
+  background: url("https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657");
+}
+
+/* HUD */
+.info-key-cont {
+  display: none;
+}
+
+.list-weapons {
+  display: none !important;
+}
+
+.hp {
+  margin-right: 20%;
+  transform: unset;
+}
+
+.hp-title {
+  display: none !important;
+}
+
+.state {
+  margin-left: 37%;
+  transform: unset;
+}
+
+.cont-endurance {
+  margin-left: 2%;
+}
+
+.mWwn {
+  display: none !important;
+}
+
+.weapons-cont {
+  position: fixed;
+  margin-right: 46.5%;
+  margin-bottom: 3%;
+  transform: unset;
+}
+
+.instruction {
+  display: none !important;
+}
+
+.mini-map-cont {
+  display: none;
+}
+
+.kill-death {
+  position: fixed;
+  right: 1px;
+  bottom: 2%;
+  left: unset !important;
+  top: unset !important;
+}
+
+/* Chat */
+.chat {
+  margin-bottom: -4%;
+}
+
+/* Profile */
+.profile .avatar-info,
+.profile .level,
+.exp-values {
+  display: none;
+}
+
+.user-info {
+  visibility: hidden;
+}
+
+.progress-lvl {
+  visibility: visible;
+  margin-right: -425%;
+  margin-top: -10% !important;
+}
+
+/* Timer and Score */
+.timer {
+  position: fixed;
+  right: 898px;
+}
+
+.team-score .label {
+  margin: 26.5px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
