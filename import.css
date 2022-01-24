@@ -88,6 +88,8 @@ div {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  height : 200 px;
+  width : 200 px;
 }
 @keyframes floating {
   from {
