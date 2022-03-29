@@ -1097,3 +1097,10 @@ input {
 .copy .border {
 	display: none;
 }
+
+/* Always On-Screen Crosshair */
+.crosshair-static[data-v-0f24d8f9] {
+    visibility: visible !important;
+    position: absolute;
+    display:flex !important;
+}
